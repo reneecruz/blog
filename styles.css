@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+  }
+
+.btn {
+    background-color: #9B59B6;
+    border: #8E44AD;
+}
+
+.btn:hover {
+    opacity: .9;
+    background-color: #9B59B6;
+    border: #8E44AD;
+}
+
+
+/* A link that has not been visited */
+a:link {
+    color: #333;
+    text-decoration: none;
+}
+/* A link that has been visited */
+a:visited {
+    color: blue;
+}
+/* A link that is hovered on */
+a:hover {
+    color:  #8E44AD;
+}
+/* A link that is selected */
+a:active {
+    color: green;
+}
